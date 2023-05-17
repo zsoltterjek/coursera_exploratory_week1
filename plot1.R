@@ -15,7 +15,7 @@ powercon$Sub_metering_3 <- as.numeric(powercon$Sub_metering_3)
 
 png(filename = "C:/Users/zterjek/Desktop/plot2.png", height = 480, width = 480)
 
-plot(powercon$datetime, powercon$Global_active_power, type = "l",
-     xlab = "", ylab = "Global Active Power (kilowatts)")
+hist(powercon$Global_active_power, col = "red", xlab = "Global Active Power 
+     (kilowatts)", main = "Global Active Power")
 
 dev.off()
