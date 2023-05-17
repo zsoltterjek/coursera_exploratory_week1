@@ -13,7 +13,7 @@ powercon$Sub_metering_1 <- as.numeric(powercon$Sub_metering_1)
 powercon$Sub_metering_2 <- as.numeric(powercon$Sub_metering_2)
 powercon$Sub_metering_3 <- as.numeric(powercon$Sub_metering_3)
 
-png(filename = "C:/Users/zterjek/Desktop/plot2.png", height = 480, width = 480)
+png(filename = "C:/Users/zterjek/Desktop/plot1.png", height = 480, width = 480)
 
 hist(powercon$Global_active_power, col = "red", xlab = "Global Active Power 
      (kilowatts)", main = "Global Active Power")
